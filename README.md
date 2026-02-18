@@ -8,7 +8,7 @@
 
 3. True and false are evaluation outputs — exit conditions of a process — not symbols in a set. The set has exactly two members. Non-termination is not a third member. It is a non-return.
 
-4. Any string whose evaluation requires the removal or completion of something the evaluation itself depends on is expressible but not executable. It parses. It does not resolve.
+4. An expression is non-executable if evaluating it requires presupposing a condition that the expression itself denies, where that condition is necessary for evaluation to occur. It parses. It does not resolve.
 
 5. "Nothing exists," "this statement is false," and {P, ¬P} are three instances of one pattern: expressible, not executable.
 
@@ -25,6 +25,8 @@ This paper uses "possible" in the strongest sense: a candidate as a coherent alt
 "Nothing exists" is not false. It is expressible but not executable. The string can be written. The operation it describes — the removal of all structure including the structure required to perform the removal — does not terminate. Any attempt to evaluate it imports an evaluation context — structure, distinction, process — which is exactly what "absolute nothing" denies. The assertion does not fail a test. It cannot enter the testing procedure without already violating what it asserts.
 
 "Expressible but not executable" is used throughout this paper in a precise sense: the evaluation operator is undefined on the input because no terminating evaluation output exists. The string parses. It is valid content. But the operation it describes does not resolve into a judgment. It is not that the operation returns an unfamiliar or third kind of result. It returns nothing. The evaluation does not complete. This is the same sense in which a function can be partial — defined on some inputs, undefined on others — and the inputs on which it is undefined are outside its domain, not inside its domain with a special output.
+
+The criterion is general: an expression e is non-executable if any attempt to evaluate e requires presupposing a condition C that e denies, where C is a necessary condition of evaluation. "Nothing exists" denies the evaluative context (structure) required to perform evaluation. "This statement is false" denies the stability of the truth predicate required to complete evaluation. {P, ¬P} denies the consistency required for evaluation to resolve into a determinate output. In each case, the expression is syntactically well-formed — it passes the grammar — but the evaluation it requests cannot terminate because it negates a precondition of the evaluation process itself.
 
 Formal logic avoids this by treating existence as a quantifier — a symbol inside a formula. ¬∃x: "there is no x." This is syntactically valid and semantically well-defined inside a structured framework. But that semantics cannot target "no structure whatsoever," because the semantics itself presupposes structure. The formula has an interpretation within a system that includes a domain, a satisfaction relation, and a valuation. These are something. The formula's interpretability is defined only relative to a semantics that is already structure; it cannot be used to certify coherence of "no structure whatsoever."
 
