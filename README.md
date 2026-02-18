@@ -52,6 +52,8 @@ This paper does not operate inside that cascade. It operates beneath it — at t
 
 Consistency is a stable identity function. A thing remains itself. A is A.
 
+In formal logic, "consistent" means no contradiction is derivable from a set of formulas. That is a downstream application of what this paper means. This paper uses consistency in the more primitive sense: a thing holds as what it is. The formal property — no contradiction derivable — is what consistency looks like when it operates at the level of sets of formulas. The primitive is prior to the formalization.
+
 This cannot be derived from anything more basic because any derivation would use it. Any challenge to consistency presupposes consistency: the challenge must be the challenge and not something else for it to function as a challenge. The floor holds itself up. Every attempt to get beneath it routes back through it.
 
 This is not an axiom chosen on faith. It is a boundary condition: whatever counts as questioning, reasoning, or explaining is already operating inside what it is trying to examine.
