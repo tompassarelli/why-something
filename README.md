@@ -1,5 +1,21 @@
 # Why Something Rather Than Nothing
 
+## The Argument
+
+1. Consistency — A is A — cannot be derived without presupposing itself. It is not an axiom. It is a boundary condition. Any challenge to it uses it.
+
+2. Identity, distinction, evaluation, and logic are not a hierarchy. They are consistency at different configurations of accumulated state.
+
+3. True and false are evaluation outputs — exit conditions of a process — not symbols in a set. The set has exactly two members. Non-termination is not a third member. It is a non-return.
+
+4. Any string whose evaluation requires the removal or completion of something the evaluation itself depends on is expressible but not executable. It parses. It does not resolve.
+
+5. "Nothing exists," "this statement is false," and {P, ¬P} are three instances of one pattern: expressible, not executable.
+
+6. "Why is there something rather than nothing?" presupposes nothing is a possible state. Nothing is not a possible state. It is an operation that cannot complete because completing it requires removing the structure performing the removal.
+
+7. The question is not unanswered. It is a string the universe can contain but cannot run.
+
 ## The Question
 
 "Why is there something rather than nothing?" presupposes that nothing is a possible state. It isn't.
@@ -7,6 +23,8 @@
 This paper uses "possible" in the strongest sense: a candidate as a coherent alternative state without presupposing the machinery it negates. The argument is not about satisfiability within a theory. It is about what it takes for "alternative state" to be a coherent phrase.
 
 "Nothing exists" is not false. It is expressible but not executable. The string can be written. The operation it describes — the removal of all structure including the structure required to perform the removal — does not terminate. Any attempt to evaluate it imports an evaluation context — structure, distinction, process — which is exactly what "absolute nothing" denies. The assertion does not fail a test. It cannot enter the testing procedure without already violating what it asserts.
+
+"Expressible but not executable" is used throughout this paper in a precise sense: the evaluation operator is undefined on the input because no terminating evaluation output exists. The string parses. It is valid content. But the operation it describes does not resolve into a judgment. It is not that the operation returns an unfamiliar or third kind of result. It returns nothing. The evaluation does not complete. This is the same sense in which a function can be partial — defined on some inputs, undefined on others — and the inputs on which it is undefined are outside its domain, not inside its domain with a special output.
 
 Formal logic avoids this by treating existence as a quantifier — a symbol inside a formula. ¬∃x: "there is no x." This is syntactically valid and semantically well-defined inside a structured framework. But that semantics cannot target "no structure whatsoever," because the semantics itself presupposes structure. The formula has an interpretation within a system that includes a domain, a satisfaction relation, and a valuation. These are something. The formula's interpretability is defined only relative to a semantics that is already structure; it cannot be used to certify coherence of "no structure whatsoever."
 
@@ -42,13 +60,15 @@ What we call identity, distinction, truth evaluation, and logic are not layers b
 
 Identity — a thing is itself — is consistency at its simplest: a single patch. Distinction — A is not B — is what consistency produces when there are two patches, each coherent enough to persist and different enough from each other to not collapse into one. Truth evaluation — does this match that? — is what happens when patches interact. Logic — chaining evaluations — is consistency operating at scale.
 
-There is an ordering here, but it is the ordering of accumulated state, not of separate dependent layers. A single patch is a precondition for two patches. Two patches are a precondition for interaction. Having two patches *is* having one patch plus more. The ordering is intrinsic to the accumulation of a single property, not a hierarchy of distinct things built on top of each other.
+There is an ordering here, but it is the ordering of accumulated state, not of separate dependent layers. A single patch is a precondition for two patches. Two patches are a precondition for interaction. Having two patches is having one patch plus more. The ordering is intrinsic to the accumulation of a single property, not a hierarchy of distinct things built on top of each other.
 
 But what accumulates within this process is not bound to the evaluator's sequential walk. Accumulated state can contain references to any other region of accumulated state — jumps, self-calls, feedback loops. The evaluator walks forward. The content can point anywhere consistency permits. A sufficiently complex region of accumulated state can reach back and reorganize earlier state. This does not violate the evaluator's ordering. It uses the forward walk to execute a reordering of content. An observer re-evaluating its own premises — restructuring the order of things toward higher consistency — is this operation.
 
 The observer is not external to this. Whatever is doing the noticing is itself a region of consistency — consistent enough to cohere as something that distinguishes, evaluates, and describes. Consistency all the way down, including the thing recognizing it.
 
 True and false are evaluation outputs, not symbols that can be extended or combined. A system that assigns "both true and false" to a statement has not discovered a third truth value. It has committed a type error. Evaluation terminates one way or the other. A process that does not terminate has not produced a result. The set of evaluation outputs is {true, false}. A non-terminating process has not returned a member of that set. It has not returned at all. A computer that has not finished computing has not produced a third kind of answer. It has produced no answer. Treating non-termination as a truth value is like treating silence as a type of statement. Non-bivalent logics, supervaluations, and paraconsistent systems are formal notations that permit certain strings. That a notation permits something does not mean the thing it notates exists. These systems confuse syntactic permission with semantic reference.
+
+This extends to the strongest version of the claim: dialetheism, the thesis that some contradictions are true. "True" is an evaluation exit-condition — what evaluation returns when it succeeds. A "true contradiction" would require evaluation to return both "succeeds" and "fails" for the same input. That is not a third evaluation output. It is the non-executability identified throughout this paper: a state that does not resolve. Truth-value gluts are not additional exits from the evaluation process. They are a notation for non-execution, mistaken for a result. A formal system can define symbols for gluts. The meta-level evaluation that certifies the system's behavior still terminates binarily: the system works as defined, or it does not. The glut notation has not extended evaluation. It has introduced bookkeeping whose correctness is certified by the same two-valued evaluation it purports to move beyond.
 
 A statement that cannot be evaluated, such as "this statement is false," is not a paradox. It is an expression that does not execute. The string exists. It is valid content. But the operation it requests — evaluating a pointer that refers only to itself with no base case — does not terminate. There is no proposition to assess. This is not "evidence that a naive truth predicate cannot be globally defined." It is a string whose execution does not complete. The elaborate formal machinery built to handle it — Tarski hierarchies, Kripke fixed points, dialethic truth — is machinery designed to process an input that should have been rejected at validation. Tarski showed in 1933 that a sufficiently expressive language cannot contain its own global truth predicate without generating pathologies. This supports the structure described in this paper: evaluation and the assertions it evaluates occupy different levels, and collapsing them produces not depth but malfunction.
 
@@ -126,7 +146,7 @@ These logics are coherent formalisms. They come with consequence relations, alge
 
 The claim of this paper is narrower and conditional: these systems do not change the preconditions of evaluation that this paper identifies — consistency as the substrate from which identity, distinction, and truth evaluation are observed. They change the bookkeeping inside a formalism. A paraconsistent logic defines a consequence relation in which explosion fails. To define that relation, the logic must use identity, distinction, and truth evaluation — combinations of the same consistency this paper identifies as the floor. The metalanguage in which the paraconsistent semantics is stated is classical. The definitions of the non-standard truth values are given in a framework that presupposes standard truth values. The system does not escape bivalence at the meta-level. It introduces non-bivalent notation at the object level while relying on bivalent evaluation to certify that the notation behaves as intended.
 
-This means two things. First, these formalisms do not help with absolute nothing, because they operate within structure and presuppose the consistency they would need to dissolve. Second, the question of whether the objects they notate — truth-value gluts, degrees of truth, designated values beyond true and false — are genuine evaluation outputs rather than structural features of a notational scheme remains open. Internal rigor establishes that the notation is well-behaved. It does not establish that it refers to something outside the notation. This paper takes no position on the general legitimacy of these programs. It claims only that they do not reach the level at which the argument about absolute nothing operates.
+This means two things. First, these formalisms do not help with absolute nothing, because they operate within structure and presuppose the consistency they would need to dissolve. Second, these formalisms do not demonstrate what their strongest philosophical proponents claim: that evaluation itself can tolerate contradiction. Object-level non-explosion does not establish that evaluation has been extended. It establishes a notational choice certified by the same bivalent evaluation it claims to surpass. The question of whether these programs have any legitimate use case at all — even within their own domain — is addressed separately in Passarelli (2025b), which argues they do not.
 
 ### "The liar is well-formed in a language with a truth predicate; banning it is a policy choice, not a forced result."
 
@@ -143,6 +163,12 @@ If evaluation can be pending, and pending is neither true nor false, then the pa
 Pending is not a status of the evaluation. It is a non-return. The set of evaluation outputs is {true, false}. A function that has not returned has not returned a third member of that set. It has not returned. The distinction is between outputs and non-outputs, not between three kinds of output. A process that loops forever does not produce a result that is "neither true nor false." It produces no result. Confusing "no output" with "a third output" is a category error — the same category error this paper identifies throughout: treating the lack of a thing as a special kind of the thing.
 
 The requirement that evaluation terminates in one of two outcomes is not a stipulation about how formal systems must behave. Formal systems can define whatever return types they like. The claim is that the operations — the actual evaluation that a system performs when assessing whether a proposition holds — terminate binarily. A formal system that defines a three-valued return type has not extended evaluation. It has defined a notation with three symbols. Whether those symbols correspond to genuine evaluation outcomes is the question, and the answer is not settled by the notation existing.
+
+### "Dialetheism says some contradictions are true. Your framework just assumes otherwise."
+
+This paper rejects dialetheism on explicit grounds. "True" is an evaluation exit-condition — what evaluation returns when it succeeds. A "true contradiction" would require evaluation to return both "succeeds" and "fails" for the same input. That is not a third evaluation output. It is the non-executability identified throughout this paper: a state that does not resolve into a judgment. Truth-value gluts are not additional exits from the evaluation process. They are a notation for non-execution, mistaken for a result.
+
+This is not an assumption. It is a consequence of what evaluation is. The meta-level process that certifies any dialetheic system — defining its truth values, proving its properties, verifying its behavior — is itself bivalent. The meta-level definitions either hold or they do not. The meta-level proofs are either valid or they are not. There is no contradiction-tolerance at the meta-level. Dialetheism introduces contradiction-shaped strings at the object level while relying on a contradiction-intolerant meta-level to certify that those strings behave as intended. The demonstration undermines the thesis at the level the thesis claims to operate.
 
 ### "You overstate what logic 'cannot' do — typed truth predicates, partial truth, and restricted self-reference do real work."
 
