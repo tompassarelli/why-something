@@ -16,9 +16,11 @@
 
 6. "Nothing exists," "this statement is false," and {P, ¬P} are three instances of one pattern: expressible, not executable.
 
-7. "Why is there something rather than nothing?" presupposes nothing is a possible state. Nothing is not a possible state. It is an operation that cannot complete because completing it requires removing the structure performing the removal.
+7. "Alternative" requires discriminative contrast. To call X an alternative to Y is to assert a difference. Absolute nothing is defined as the cancellation of all differences. It cannot be an alternative to "something" because it has been defined as the absence of everything that makes contrasting possible.
 
-8. The question is not unanswered. It is a string the universe can contain but cannot run.
+8. "Why is there something rather than nothing?" presupposes nothing is a possible state. Nothing is not a possible state. It is a specification that cancels its own discriminative conditions and therefore cannot serve as a candidate alternative.
+
+9. The question is not unanswered. It is a string the universe can contain but cannot run.
 
 ## The Question
 
@@ -27,6 +29,14 @@
 This paper uses "possible" in the strongest sense: a candidate whose specification conditions can be stated without self-undermining. The argument is not about satisfiability within a theory. It is about what it takes for "alternative state" to be a coherent phrase. The test is not whether some existing thing can specify the candidate — that would smuggle "something" into the definition. The test is whether the specification conditions themselves are coherent: whether they can be stated without denying what they require.
 
 "Nothing" in this paper means absolute nothing: not merely the absence of objects within a structure, but the absence of all structure — no distinctions, no laws, no evaluative context, no framework within which absence could be registered. The distinction between "a universe with no objects in it" and "absolute nothing" is the distinction between a container and the absence of all containers. Where the intended reading matters, this paper says "absolute nothing" to mark the stronger target.
+
+The connection between non-executability and non-candidacy must be made explicit. It is not enough to show that discrimination cannot return a verdict on "absolute nothing." The question is why that entails it is not a genuine alternative state. The answer is native to the framework:
+
+To call X an alternative to Y is to assert a difference between them. A difference is the minimal condition under which discrimination could, in principle, return different verdicts when applied to X versus Y. If no discriminative contrast is possible even in principle — if there is nothing that could separate X from Y under any application of discrimination — then "X rather than Y" has no content. It does not pick out a distinct candidate. It repeats Y with a second label.
+
+Absolute nothing is not merely hard to specify. It is defined as the cancellation of all structure, which is the cancellation of all possible discriminative contrasts. So it cannot contrast with anything — including "something." The question "why is there something rather than nothing?" presupposes a contrast between two candidates. Under the absolute reading, that contrast cannot even be a contrast, because one of the candidates has been defined as the absence of everything that makes contrasting possible.
+
+The retreat to "inaccessible but real" does not escape this. "Inaccessible but real" still asserts a contrast: reality-with-X versus reality-without-X. If that contrast can never exist as a discriminative difference even in principle, the phrase is empty. This is not an epistemic limitation — it is not "we cannot know whether nothing obtains." It is that "nothing as an alternative to something" requires a difference, and absolute nothing is defined as the cancellation of all differences.
 
 "Nothing exists" is not false. It is expressible but not executable. The string can be written. The operation it describes — the removal of all structure including the structure required to perform the removal — does not terminate. Any attempt to evaluate it imports an evaluation context — structure, distinction, process — which is exactly what "absolute nothing" denies. The assertion does not fail a test. It cannot enter the testing procedure without already violating what it asserts.
 
@@ -126,7 +136,9 @@ Consistency — a stable identity function, A is A — cannot be derived without
 
 "Absolute nothing" — the absence of all structure — is expressible. The string exists. But it is not executable. It describes an operation — the removal of all structure including the evaluator — that does not terminate. Its non-completion is a manifestation of the deeper point: the specification cancels the discriminative conditions needed for any verdict. Specifying it requires structure (distinction, modality, state-of-affairs talk). Modeling it requires structure. Evaluating it requires structure. Every tool that could certify its coherence is made of the thing it negates. Content can be deallocated. The evaluator cannot deallocate itself.
 
-"Why is there something rather than nothing?" is expressible but not executable. Both the "nothing" side (a specification that cancels its own discriminative conditions) and the "why" side (demands justification beneath the condition that makes justification possible) presuppose the floor they are trying to question. The question is a string the universe can contain but cannot run.
+Non-executability entails non-candidacy because "alternative" requires discriminative contrast. To call X an alternative to Y is to assert a difference between them. Absolute nothing is defined as the cancellation of all differences. It cannot contrast with "something" because it has been defined as the absence of everything that makes contrasting possible.
+
+"Why is there something rather than nothing?" is expressible but not executable. Both the "nothing" side (a specification that cancels its own discriminative conditions and therefore cannot serve as an alternative) and the "why" side (demands justification beneath the condition that makes justification possible) presuppose the floor they are trying to question. The question is a string the universe can contain but cannot run.
 
 ## Objections and Replies
 
@@ -135,6 +147,8 @@ Consistency — a stable identity function, A is A — cannot be derived without
 This paper concedes the point. Nothing can be represented. The string exists. It is expressible. Consistency permits it as content. The claim is not that nothing cannot be represented but that nothing cannot execute — the operation the string describes does not terminate, because completing it requires the removal of the structure performing the operation.
 
 The remaining form of the objection is: there is a gap between what can execute and what can be, and absolute nothing might sit on the far side of that gap. This reduces to one claim: there are states of affairs that no process could ever instantiate, verify, or reach, and these are still genuine possibilities.
+
+The bridge principle connecting non-executability to non-candidacy is stated earlier and does not depend on epistemology: to call something an alternative is to assert a discriminative contrast. A candidate that cancels all possible discriminative contrasts is not an alternative to anything. This is not "we cannot access it." It is "there is no 'it' there to be an alternative, because alternative requires difference and this candidate is defined as the absence of all difference."
 
 The objection asks for a bridge principle — a stated rule connecting representability to possibility — and then positions itself as the neutral default that needs no such principle.
 
